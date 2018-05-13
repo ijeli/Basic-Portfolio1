@@ -92,7 +92,7 @@ footer {
 
 #aboutgeneralbox {
     width: 960px;
-    height: 500px;
+    height: 600px;
     align-self: center;
     margin: auto;
     border-style: solid;
@@ -135,6 +135,8 @@ footer {
     width: 910px;
     font-size: 20px;
     margin: 20px;
+    line-height: 1.5;
+    margin-top: 25px;
 }
 
 #propic {
@@ -142,7 +144,7 @@ footer {
     margin: 5px;
     width: 350px;
     height: 250px;
-    margin-left: 20px;
+    margin-left: 0px;
 }
 
 /*contact content*/
