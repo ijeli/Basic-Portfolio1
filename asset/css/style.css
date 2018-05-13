@@ -1,0 +1,351 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../image/funky-lines.png");
+    width: auto;
+    height: auto;
+    color: #777777;
+}
+
+header,
+h1 { 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: #ffffff;
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 1.5px;
+    width: 100%;
+    height: 100px;
+}
+
+footer {
+    background-color: #666666;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    border-top-color: #4aaaa5;
+    border-top-width: 2px;
+    border-style: solid;
+    color: white;
+    padding: 1em;
+    margin-top: 10px;
+    
+}
+
+
+.clearfix {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/*Header attribute styles*/
+#headbox {
+    width: 960;
+    height: 100px;
+    align-self: center;
+    margin: auto;
+}
+
+#namebox {
+    width: 400px;
+    height: 75px;
+    position: relative;
+    top: 23;
+    left: 50;
+    background-color: #4aaaa5;
+}
+
+#nametext {
+    position: relative;
+    top: 27;
+    left: 0;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#linkbox {
+    position: relative;
+    float: right;
+    width: 300px;
+    height: 25px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.nounderline {
+    text-decoration: none;
+}
+
+.makemenormal {
+    color: #9999A5;
+}
+
+/*about content*/
+
+#aboutgeneralbox {
+    width: 960px;
+    height: 500px;
+    align-self: center;
+    margin: auto;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #cccccc;
+    background-color: #ffffff;
+}
+
+#aboutbox {
+    width: 910px;
+    border-bottom-style: solid;
+    border-bottom-color: #dddddd;
+    align-self: center;
+    height: 100px;
+    background-color: #ffffff;
+    margin: auto;
+    border-width: 2px;
+}
+
+#abouttextbox {
+    width: 300px;
+    position: relative;
+    top: 45px;
+    left: 25px;
+}
+
+#abouttext {
+    position: relative;
+    top: 0;
+    left: 0;
+    color: #4aaaa5;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+#aboutcontentbox {
+    position: relative;
+    bottom: -5px;
+    left: 0;
+    width: 910px;
+    font-size: 20px;
+    margin: 20px;
+}
+
+#propic {
+    float: left;
+    margin: 5px;
+    width: 350px;
+    height: 250px;
+    margin-left: 20px;
+}
+
+/*contact content*/
+
+#contactgeneralbox {
+    width: 960px;
+    height: 600px;
+    align-self: center;
+    margin: auto;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #cccccc;
+    background-color: #ffffff;
+}
+
+#contactbox {
+    width: 910px;
+    border-bottom-style: solid;
+    border-bottom-color: #dddddd;
+    align-self: center;
+    height: 100px;
+    background-color: #ffffff;
+    margin: auto;
+    border-width: 2px;
+}
+
+#contacttext {
+    width: 300px;
+    position: relative;
+    top: 45px;
+    left: 25px;
+    color: #4aaaa5;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+#contactcontentbox {
+    position: relative;
+    bottom: -5px;
+    left: 0;
+    width: 910px;
+    font-size: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#nameinput {
+    width: 909px;
+}
+
+#emailinput {
+    width: 909px;
+}
+
+#messageinput {
+    width: 909px;
+    height: 250px;
+}
+
+#buttoninput {
+    background-color: #4aaaa5;
+    color: white;
+    width: 70px;
+    height: 40px;
+}
+
+/*Gallery*/
+#portfoliogeneralbox {
+    background-color: #ffffff;
+    width: 960px;
+    height: 900px;
+    margin: auto;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #dddddd;
+}
+#portfoliobox {
+    width: 905px;
+    height: 90px;
+    border-bottom-style: solid;
+    border-width: 2.3px;
+    border-color: #dddddd;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: #4aaaa5;
+}
+
+#portfolioname {
+    width: 300px;
+    position: relative;
+    top: 45px;
+    left: 25px;
+    color: #4aaaa5;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+#stuffbox {
+    position: relative;
+    top: -4px;
+    left: 32px;
+    width: 910px;
+}
+
+#ihangbox {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #4aaaa5;
+}
+
+#irpgbox {
+    position: absolute;
+    top: 0px;
+    left: 450px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #4aaaa5;
+}
+
+#itriviabox {
+    position: absolute;
+    top: 225px;
+    left: 0px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #4aaaa5;
+}
+
+#irutgerbox {
+    position: absolute;
+    top: 225px;
+    left: 450px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #4aaaa5;
+}
+
+#irockbox {
+    position: absolute;
+    top: 450px;
+    left: 0px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #4aaaa5;
+}
+
+#hangtextbox {
+    position: absolute;
+    background-color: #4aaaa5;
+    z-index: 31;
+    top: 108px;
+    left: 0px;
+    width: 200px;
+    text-align: center;
+}
+
+#rpgtextbox {
+    position: absolute;
+    background-color: #4aaaa5;
+    z-index: 31;
+    top: 108;
+    left: 450px;
+    width: 200px;
+    text-align: center;
+}
+
+#triviatextbox {
+    position: absolute;
+    background-color: #4aaaa5;
+    z-index: 31;
+    top: 333px;
+    left: 450px;
+    width: 200px;
+    text-align: center;
+}
+
+#rutgertextbox {
+    position: absolute;
+    background-color: #4aaaa5;
+    z-index: 31;
+    top: 333px;
+    left: 0px;
+    width: 200px;
+    text-align: center;
+}
+
+
+#rocktextbox {
+    position: absolute;
+    background-color: #4aaaa5;
+    z-index: 31;
+    top: 559px;
+    left: 0px;
+    width: 200px;
+    text-align: center;
+}
+
+.portfontcolor {
+    color: white;
+}
